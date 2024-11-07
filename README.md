@@ -3,13 +3,14 @@
 SQL Schema
 Pandas Schema
 Table: Scores
-
+```
 +-------------+---------+
 | Column Name | Type    |
 +-------------+---------+
 | id          | int     |
 | score       | decimal |
 +-------------+---------+
+```
 id is the primary key (column with unique values) for this table.
 Each row of this table contains the score of a game. Score is a floating point value with two decimal places.
  
@@ -26,7 +27,7 @@ The result format is in the following example.
  
 
 Example 1:
-
+```
 Input: 
 Scores table:
 +----+-------+
@@ -50,3 +51,4 @@ Output:
 | 3.65  | 3    |
 | 3.50  | 4    |
 +-------+------+
+```
